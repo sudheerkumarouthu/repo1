@@ -1,0 +1,37 @@
+<AzVpnProfile xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/">
+  <any xmlns:d2p1="http://schemas.datacontract.org/2004/07/System.Xml" i:nil="true" />
+  <clientauth>
+    <aad>
+      <audience>41b23e61-6c1e-4545-b367-cd054e0ed4b4</audience>
+      <cachesigninuser>true</cachesigninuser>
+      <enablegrouptoken>false</enablegrouptoken>
+      <issuer>https://sts.windows.net/6e66f4c8-5509-4000-bb7f-bdaf79192422/</issuer>
+      <tenant>https://login.microsoftonline.com/6e66f4c8-5509-4000-bb7f-bdaf79192422/</tenant>
+    </aad>
+    <cert i:nil="true" />
+    <type>aad</type>
+    <usernamepass i:nil="true" />
+  </clientauth>
+  <clientconfig i:nil="true" />
+  <name>AZB38-SP2-RG-vNET1</name>
+  <protocolconfig>
+    <sslprotocolConfig>
+      <transportprotocol>tcp</transportprotocol>
+    </sslprotocolConfig>
+  </protocolconfig>
+  <serverlist>
+    <ServerEntry>
+      <displayname i:nil="true" />
+      <fqdn>azuregateway-61e20031-1d0f-4a1f-a210-cda297331a4e-1e84f9b907bc.vpn.azure.com</fqdn>
+    </ServerEntry>
+  </serverlist>
+  <servervalidation>
+    <Cert>
+      <hash>DF3C24F9BFD666761B268073FE06D1CC8D4F82A4</hash>
+      <issuer i:nil="true" />
+    </Cert>
+    <serversecret>9e5279a3bc78df5f159c2e5a5849c684c7d7f74d7b678a3e10298e2356cae9ac537f9d5026d7e155695bb7fbb050ec8f7f6aadd4ca40f52c151ef389650aa3ce15ec6afc9f6819c92c61c4a0b98d6cac74e9d5e76efcb75f0ef330eb12c14ab00f01dcf57e929d65309bd1c75ac2f3135c52162be8d81038188477689d919b6c88cdf72ce65cbb34821e435afdcbe9e15f1a6531282486e3f089338640bc674b8af921c8395fc52cfbdd6fe608a0ebc6e52e9e4dc21edd8a241a5b2788ce130fe02b72a05cf701f84a775360b5c6b589b9143dbc9013c86075dd659ccee43b067e3694477042c53a019f9152a44ed39fa982e20fd54105d365cf014f0fe4410c</serversecret>
+    <type>cert</type>
+  </servervalidation>
+  <version>1</version>
+</AzVpnProfile>
